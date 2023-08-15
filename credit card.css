@@ -1,5 +1,5 @@
 body {
-    background: rgb(234, 242, 198);
+    background: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,8 @@ h3 {
 
 
 .card:hover  card-inner {
-    transform: rotateY('180deg');
+    transform: rotateY(180deg);
+    cursor: pointer;
 }
 
 .card-front , .card-back {
@@ -50,13 +51,12 @@ h3 {
     -webkit-linear-gradient(90deg, hsla(154,100%,76%,1)0%, hsla(234,100%,83%,1)50%, hsla(288,100%,81%,1)100%);
 
 
-    filer:
-    progid: DXImageTransform.Microsoft.gradient( starcolorstr-"#84FFC9", endColorstr-"#AA82FF", GradientType-1);
+    filer: progid: DXImageTransform.Microsoft.gradient( starcolorstr-"#84FFC9", endColorstr-"#AA82FF", GradientType-1);
 }
 
 .card-back {
     background-color: #e6e6e6;
-    transform: rotateY('180deg');
+    transform: rotateY(180deg);
 }
 
 .details-section {
